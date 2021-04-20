@@ -291,6 +291,7 @@ plan section
 .card{
     width: 100%;
     text-align: center;
+    cursor: pointer;
 }
 
 .card-header{
@@ -489,6 +490,7 @@ footer section
     font-weight: 600;
     margin-right: 18px;
     margin-top: 12px;
+    cursor: pointer;
 }
 
 .footer i:hover{
