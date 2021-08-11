@@ -1,0 +1,238 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+
+    .banner h6 {
+        font-size: 22px;
+    }
+
+    .banner h1 {
+        font-size: 24px;
+    }
+    
+    .banner p {
+        font-size: 19px;
+    }
+
+    button {
+        margin-right: 2px;
+    }
+
+    .banner-device {
+        padding-top: 170px;
+    }
+
+    .features h6 {
+        font-size: 18px;
+    }
+
+    .features-one h2 {
+        font-size: 22px;
+    }
+
+    .features-one p {
+        font-size: 19px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .banner h6 {
+        font-size: 18px;
+    }
+
+    .details span {
+        font-size: 20px;
+    }
+
+    .img-fluid {
+        margin-top: 12px;
+    }
+
+    .speech p {
+        font-size: 20px;
+    }
+    
+    .theme-right {
+        margin-top: 26px;
+    }
+
+    .card-body-h h1::before {
+        left: 44px;
+    }
+
+    .card-body h1::before {
+        left: 24px;
+    }
+
+    .card-header h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .card-body p {
+        font-size: 20px;
+    }
+
+    .card-footer p {
+        font-size: 18px;
+        padding: 0px 3px;
+    }
+
+    .contact p {
+        font-size: 22px;
+    }
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+
+   
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+
+    .banner {
+        padding: 28px 22px;
+    }
+
+    .banner h1 {
+        font-size: 22px;
+    }
+
+    .banner p {
+        font-size: 13px;
+    }
+
+    button{
+        margin-right: 1px;
+    }
+
+    .banner-device {
+        padding-top: 18px;
+    }
+
+    .features h1 {
+        font-size: 22px;
+    }
+
+    .features-one p{
+        font-size: 14px;
+    }
+
+    .features-one h2 {
+        font-size: 20px;
+    }
+
+    .details-wrapper .row{
+        flex-direction: column-reverse;
+    }
+
+    .details-wrapper {
+        text-align: center;
+    }
+
+    .details{
+        margin-bottom: 42px;
+    }
+
+    .pricing-wrapper{
+        text-align: center;
+    }
+
+    .person-one{
+        margin-top: 0px;
+    }
+
+    .speech{
+        margin-top: 0px;
+    } 
+
+    .speech p {
+        margin-top: 38px;
+    }
+
+    .theme-right {
+        text-align: center;
+    }
+
+    .card-body-h h1::before {
+        left: 134px;
+    }
+
+    .card-body h1::before {
+        left: 114px;
+    }
+
+    .card {
+        margin-top: 24px;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .footer{
+        padding: 8px 0px;
+    }
+
+
+
+
+ 
+
+    
+  }
